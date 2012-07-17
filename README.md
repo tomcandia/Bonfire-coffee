@@ -7,4 +7,4 @@ Al igual que Bonfire, Bonfire-Coffee busca proporcionar una base sólida para el
 
 ## Hoja de Ruta
 
-Echa un vistazo a nuestra [hoja de ruta](https://trello.com/board/impulso/5005639fffaad90434779ec0)
+Echa un vistazo a nuestra [hoja de ruta](https://trello.com/board/bonfire-coffee/5005639fffaad90434779ec0)
