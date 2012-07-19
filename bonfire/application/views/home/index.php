@@ -18,7 +18,7 @@
 <?php if (isset($current_user->email)) : ?>
 
 	<div class="alert alert-info" style="text-align: center">
-		<?php echo anchor(SITE_AREA, "Ingresa al &aacute;rea de administraci&oacute;n"); ?>
+		<?php echo anchor(SITE_AREA, "Ingresa al panel de control"); ?>
 	</div>
 
 <?php else :?>

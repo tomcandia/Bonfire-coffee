@@ -3,10 +3,10 @@
     <footer class="footer">
     	<div class="container">
 	        <?php if (ENVIRONMENT == 'development') :?>
-				<p style="float: right; margin-right: 80px;">Page rendered in {elapsed_time} seconds, using {memory_usage}.</p>
+				<p style="float: right; margin-right: 80px;">P&aacute;gina cargada en {elapsed_time} segundos, usando {memory_usage}.</p>
 			<?php endif; ?>
 	
-			<p>Powered Proudly by <a href="http://cibonfire.com" target="_blank">Bonfire <?php echo BONFIRE_VERSION ?></a></p>
+			<p>Desarrollado por <a href="http://cibonfire.com" target="_blank">Bonfire <?php echo BONFIRE_VERSION ?></a></p>
 		</div>
 	</footer>
 	

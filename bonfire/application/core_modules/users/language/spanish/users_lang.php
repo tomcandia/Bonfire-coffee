@@ -91,6 +91,9 @@ $lang['us_edit_note']				= 'Ingrese sus detalles acontinuaci&oacute;n y luego ha
 
 $lang['us_reset_password']			= 'Restablecer su contrase&ntilde;a';
 $lang['us_reset_note']				= 'Ingrese su correo electr&oacute;nico y le enviaremos una contrase&ntilde;a temporal.';
+$lang['us_button_password']			= 'Enviar Contrase&ntilde;a';
+$lang['us_reset_msg']				= 'Ingrese su nueva contrase&ntilde;a a continuaci&oacute;n para ser restablecida';
+
 
 $lang['us_login']					= 'Mi nombre es...';
 $lang['us_remember_note']			= 'Recordarme por 2 semanas';

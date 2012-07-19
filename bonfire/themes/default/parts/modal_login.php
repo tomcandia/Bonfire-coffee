@@ -21,7 +21,7 @@
 			<div class="control-group">
 				<label class="control-label" for="password"><?php echo lang('bf_password') ?></label>
 				<div class="controls">
-					<input type="password" name="password" class="input-xlarge" placeholder="Password" value="">
+					<input type="password" name="password" class="input-xlarge" placeholder="<?php echo lang('bf_password') ?>" value="">
 				</div>
 			</div>
 
@@ -47,8 +47,8 @@
 	<div class="modal-footer">
 			<?php if ($this->settings_lib->item('auth.allow_register')) : ?>
 				<p style="text-align: center">
-					No account? <a href="<?php echo site_url('register') ?>"><?php echo lang('bf_action_register'); ?>!</a> |
-					<a href=""><?php echo lang('bf_forgot_password'); ?></a>
+					<?php echo lang('us_no_account'); ?> <a href="<?php echo site_url('register') ?>"><?php echo lang('bf_action_register'); ?>!</a> |
+					<a href="<?php echo site_url('forgot_password') ?>"><?php echo lang('bf_forgot_password'); ?></a>
 				</p>
 			<?php endif; ?>
 	</div>

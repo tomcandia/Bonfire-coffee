@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title><?php echo $this->settings_lib->item('site.title'); ?></title>
@@ -19,6 +19,6 @@
   </head>
 <body>
 <!--[if lt IE 7]>
-		<p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or
-		<a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+		<p class=chromeframe>Su navegador es <em>antig&uuml;o!</em> <a href="http://browsehappy.com/">actualice a uno m&aacute;s reciente</a> o
+		<a href="http://www.google.com/chromeframe/?redirect=true">instale Google Chrome Frame</a> para una mejor experiencia en este sitio web.</p>
 <![endif]-->
