@@ -47,8 +47,8 @@ $lang['bf_remember_time']		= 'Remember Users For';
 $lang['bf_week']				= 'Week';
 $lang['bf_weeks']				= 'Weeks';
 $lang['bf_days']				= 'Days';
-$lang['bf_username']			= 'Username';
-$lang['bf_password']			= 'Password';
+$lang['bf_username']			= 'Usuario';
+$lang['bf_password']			= 'Contrase&ntilde;a';
 $lang['bf_password_confirm']	= 'Password (again)';
 
 $lang['bf_home_page']			= 'Home Page';
@@ -91,13 +91,13 @@ $lang['bf_file']				= 'File';
 
 $lang['bf_with_selected']		= 'With selected';
 
-$lang['bf_env_dev']				= 'Development';
-$lang['bf_env_test']			= 'Testing';
-$lang['bf_env_prod']			= 'Production';
+$lang['bf_env_dev']				= 'Desarrollo';
+$lang['bf_env_test']			= 'Pruebas';
+$lang['bf_env_prod']			= 'Producci&oacute;n';
 
 $lang['bf_user']				= 'User';
 $lang['bf_users']				= 'Users';
-$lang['bf_username']			= 'Username';
+$lang['bf_username']			= 'Usuario';
 $lang['bf_description']			= 'Description';
 $lang['bf_email']				= 'Email';
 $lang['bf_user_settings']		= 'My Profile';

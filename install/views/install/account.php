@@ -1,6 +1,6 @@
 <?php $this->load->view('header'); ?>
 
-<?php echo lang('in_intro'); ?>
+<?php //echo lang('in_intro'); ?>
 
 <?php if (isset($startup_errors) && !empty($startup_errors)) :?>
 
@@ -8,7 +8,7 @@
 	
 	<?php echo $startup_errors; ?>
 	
-	<p style="text-align: right; margin-top: 3em;"><?php echo anchor('install', 'Reload Page'); ?></p>
+	<p style="text-align: right; margin-top: 3em;"><?php echo anchor('install', lang('in_reload')); ?></p>
 
 <?php else : ?>
 
@@ -32,18 +32,18 @@
 	
 		<div>
 			<label for="site_title"><?php echo lang('in_site_title'); ?></label>
-			<input type="text" name="site_title" id="site_title" placeholder="My Great Bonfire App" value="<?php echo set_value('site_title', config_item('site.title')) ?>" />
+			<input type="text" name="site_title" id="site_title" placeholder="Aqu&iacute; el t&iacute;tulo para mi aplicaci&oacute;n Web" value="<?php echo set_value('site_title', config_item('site.title')) ?>" />
 		</div>
 		
 		<div>
-			<label for="username"><?php echo lang('bf_username'); ?></label>
+			<label for="username"><?php echo lang('in_username'); ?></label>
 			<input type="text" name="username" id="username" value="<?php echo set_value('username') ?>" />
 		</div>
 		
 		<br />
 		
 		<div>
-			<label for="password"><?php echo lang('bf_password'); ?></label>
+			<label for="password"><?php echo lang('in_password'); ?></label>
 			<input type="password" name="password" id="password" value="" />
 			<p class="small"><?php echo lang('in_password_note'); ?></p>
 		</div>
@@ -57,7 +57,7 @@
 		
 		<div>
 			<label for="email"><?php echo lang('in_email'); ?></label>
-			<input type="email" name="email" id="email" placeholder="me@home.com" value="<?php echo set_value('email') ?>" />
+			<input type="email" name="email" id="email" placeholder="yo@micorreo.com" value="<?php echo set_value('email') ?>" />
 			<p class="small"><?php echo lang('in_email_note'); ?></p>
 		</div>
 		

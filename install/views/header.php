@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8" />
 
@@ -18,7 +18,9 @@
 		<!-- Header -->
 		<div class="head text-right">
 			<div class="inner">
-				<h1><img src="<?php echo site_url('views/images/bonfire_logo.png') ?>" /></h1>
+				<!--<h1><img src="<?php echo site_url('views/images/bonfire_logo.png') ?>" /></h1>-->
+				<h1>Bonfire-coffee</h1>
+				<h4>Desarrollo r&aacute;pido de aplicaciones web.</h4>
 			</div>
 		</div>
 
