@@ -13,6 +13,8 @@ Bonfire-Coffee es el proyecto que busca ofrecer esta misma capacidad pero prepar
 - Instalador completamente en español
 - Módulos base en español
 - Bonfire base en español
+- Idioma español por defecto en todo el sistema
+- Frontend traducido al español
 
 ## Hoja de Ruta
 
