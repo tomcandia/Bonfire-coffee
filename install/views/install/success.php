@@ -1,6 +1,6 @@
 <?php $this->load->view('header'); ?>
 
-<?php echo lang('in_intro'); ?>
+<?php echo lang('in_success'); ?>
 
 <?php if(isset($rebase)):?>
 <p><?php echo lang('in_success_rebase_msg').$rebase;?></p>

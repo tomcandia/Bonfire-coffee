@@ -8,7 +8,7 @@
 	
 	<?php echo $startup_errors; ?>
 	
-	<p style="text-align: right; margin-top: 3em;"><?php echo anchor('/install', 'Reload Page'); ?></p>
+	<p style="text-align: right; margin-top: 3em;"><?php echo anchor('/', lang('in_reload')); ?></p>
 
 <?php else : ?>
 	<h2><?php echo lang('in_db_settings'); ?></h2>
@@ -27,9 +27,9 @@
 		<div>
 			<label for="environment"><?php echo lang('in_environment'); ?></label>
 			<select name="environment">
-				<option value="development" <?php echo set_select('environment', 'development', TRUE); ?>>Development</option>
-				<option value="testing" <?php echo set_select('environment', 'testing'); ?>>Testing</option>
-				<option value="production" <?php echo set_select('environment', 'production'); ?>>Production</option>
+				<option value="development" <?php echo set_select('environment', 'development', TRUE); ?>><?php echo lang('in_env_dev'); ?></option>
+				<option value="testing" <?php echo set_select('environment', 'testing'); ?>><?php echo lang('in_env_test'); ?></option>
+				<option value="production" <?php echo set_select('environment', 'production'); ?>><?php echo lang('in_env_prod'); ?></option>
 			</select>
 		</div>
 		
@@ -39,12 +39,12 @@
 		</div>
 		
 		<div>
-			<label for="username"><?php echo lang('bf_username'); ?></label>
+			<label for="username"><?php echo lang('in_username'); ?></label>
 			<input type="text" name="username" value="<?php echo set_value('username') ?>" />
 		</div>
 		
 		<div>
-			<label for="password"><?php echo lang('bf_password'); ?></label>
+			<label for="password"><?php echo lang('in_password'); ?></label>
 			<input type="password" name="password" id="password" value="" />
 		</div>
 		
