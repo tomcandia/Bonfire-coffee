@@ -113,7 +113,7 @@ $lang['us_self_delete']				= 'Sin autorizaci&oacute;n. Lo sentimos, no se puede 
 
 $lang['us_filter_first_letter']		= 'El nombre de usuario inicia con: ';
 $lang['us_account_details']			= 'Detalles de la cuenta';
-$lang['us_last_login']				= '&uuml;ltimo inicio de sesi&oacute;n';
+$lang['us_last_login']				= '&Uacute;ltimo Acceso';
 
 
 
@@ -214,3 +214,10 @@ $lang['us_pass_strong']				= 'Fuerte';
 /* Reset Password */
 $lang['us_reset_password_email_subject'] = 'Asunto';
 $lang['us_activate_error_msg']		=  'Mensaje de error';
+
+/* UI */
+$lang['us_all_users'] = 'Todos';
+$lang['us_inactive'] = 'Inactivos';
+$lang['us_banned'] = 'Bloqueados';
+$lang['us_deleted'] = 'Eliminados';
+$lang['us_by_role'] = 'Por Rol';

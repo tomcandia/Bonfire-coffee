@@ -1,7 +1,7 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 $config['module_config'] = array(
-	'description'	=> 'Permite ver los archivos de registro y ajustar sus parametros.',
+	'description'	=> 'Gestione las configuraciones del sitio.',
 	'author'		=> 'Bonfire Team',
-	'name'			=> 'Registro del Sistema'
-);	
+	'name'			=> 'Configuraci&oacute;n'
+);

@@ -68,3 +68,5 @@ $lang['activity_no_top_modules']		= "No se encontro registros de la actividad de
 $lang['activity_no_top_users']			= "No se encontro registros de la actividad del usuario.";
 $lang['activity_logged']				= "Actividades Registradas";
 $lang['activity_none_found']			= 'No tienes permisos para eliminar ninguna actividad.';
+
+$lang['activity_cleanup']				= 'Limpiar Actividad.';
