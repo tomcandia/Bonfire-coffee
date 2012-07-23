@@ -3,7 +3,7 @@
 
 					<tr>
 						<td style="background-color:#fff;border-top:1px solid #ccc;" valign="top">
-							Copyright (C) 2012  All rights reserved.
+							<?php echo lang('em_copyright'); ?>
 						</td>
 					</tr>
 

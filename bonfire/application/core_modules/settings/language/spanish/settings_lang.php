@@ -5,3 +5,7 @@ $lang['set_name_change_frequency']	= ' cambiar cada';
 $lang['set_days']					= ' d&iacute;as';
 $lang['settings_saved_success']     = 'Su configuraci&oacute;n fue guardada correctamente.';
 $lang['settings_error_success']     = 'Hubo un error guardando su configuraci&oacute;n.';
+$lang['set_main']					= 'Sitio Web';
+$lang['set_security']				= 'Seguridad';
+$lang['set_developer']				= 'Desarrollador';
+$lang['set_password_options']		= 'Opciones para la contrase&ntilde;a';
