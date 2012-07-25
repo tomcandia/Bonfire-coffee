@@ -19,5 +19,8 @@ $lang['mig_core_migrations']		= 'Migraci&oacute;n de Bonfire Core';
 $lang['mig_mod_migrations']			= 'Migraci&oacute;n de M&oacute;dulos';
 
 $lang['db_maintenance']				= 'Mantenimiento';
-$lang['db_backups']					= 'Copia de Seguridad';
+$lang['db_backups']					= 'Respaldos';
 $lang['db_migrations']				= 'Migraciones';
+
+$lang['mig_app']					= 'Aplicaci&oacute;n';
+$lang['mig_module']					= 'M&oacute;dulo';

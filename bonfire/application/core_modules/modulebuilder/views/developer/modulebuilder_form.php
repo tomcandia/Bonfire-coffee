@@ -114,13 +114,13 @@
         <label class="control-label" for="db_required"></label>
         <div class="controls">
           <label class="inline radio">
-            <input name="module_db" id="db_no" type="radio" value="" <?php echo set_checkbox("module_db", "", $field_total == 0 ? TRUE : FALSE); ?> class="radio" /> None
+            <input name="module_db" id="db_no" type="radio" value="" <?php echo set_checkbox("module_db", "", $field_total == 0 ? TRUE : FALSE); ?> class="radio" /> <?php echo lang('mb_form_none'); ?>
           </label>
           <label class="inline radio">
-            <input name="module_db" id="db_create" type="radio" value="new" <?php echo set_checkbox("module_db", "new", $field_total != 0 ? TRUE : FALSE); ?> class="radio" /> Create New Table
+            <input name="module_db" id="db_create" type="radio" value="new" <?php echo set_checkbox("module_db", "new", $field_total != 0 ? TRUE : FALSE); ?> class="radio" /> <?php echo lang('mb_form_new_table'); ?>
           </label>
           <label class="inline radio">
-            <input name="module_db" id="db_exists" type="radio" value="existing" <?php echo set_checkbox("module_db", "existing"); ?> class="radio" /> Build from Existing Table
+            <input name="module_db" id="db_exists" type="radio" value="existing" <?php echo set_checkbox("module_db", "existing"); ?> class="radio" /> <?php echo lang('mb_form_existing_table'); ?>
           </label>
         </div>
       </div>
@@ -427,7 +427,7 @@
 	</div>
 	<div class="form-actions">
 		<?php if ($writeable): ?>
-			<?php echo form_submit('submit', 'Build the Module', 'class="btn btn-primary"'); ?>
+			<?php echo form_submit('submit', lang('mb_form_button'), 'class="btn btn-primary"'); ?>
 		<?php endif;?>
 	</div>
 	<?php echo form_close()?>

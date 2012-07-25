@@ -25,8 +25,8 @@
 $lang['mb_actions']				= 'Acciones';
 $lang['mb_create_button']		= 'Crear módulo';
 $lang['mb_create_link']			= 'Crear un nuevo módulo';
-$lang['mb_create_note']			= 'Utiliza nuestro asistente wizbang para crear tu próximo módulo. Hacemos todo el trabajo pesado por ti mediante la generación de controladores, módelos, vistas y archivos de idioma.';
-$lang['mb_not_writeable_note']	= 'Error: la carpeta bonfire/modules no tiene permisos de escritura por lo que no podr&aacute; crear ning&acute;un m&oacute;dulo en el servidor. Por favor asigne los permisos de escritura a la carpeta y actualiza esta p&aacute;gina.';
+$lang['mb_create_note']			= 'Utiliza el asistente para crear un nuevo módulo. El asistente hace todo el trabajo pesado por ti generando controladores, módelos, vistas y archivos de idioma.';
+$lang['mb_not_writeable_note']	= 'Error: la carpeta bonfire/modules no tiene permisos de escritura por lo que no podr&aacute; crear ning&uacute;n m&oacute;dulo en el servidor. Por favor asigne los permisos de escritura a la carpeta y actualiza esta p&aacute;gina.';
 $lang['mb_delete']				= 'Eliminar';
 $lang['mb_generic_description']	= 'Su descripci&oacute;n aqu&iacute;.';
 $lang['mb_installed_head']		= 'M&oacute;dulos de aplicaci&oacute;n instaldos';
@@ -61,11 +61,11 @@ $lang['mb_new_module']			= 'Nuevo m&oacute;dulo';
 $lang['mb_exist_modules']		= 'M&oacute;dulos existentes';
 
 // FORM page
-$lang['mb_form_note'] 			= '<p><b>Llene todos los campos que le gustar&iacute;a tener en su m&oacute;dulo (un campo "id" ser&aacute; creado autom&aacute;ticamente). Si desea crear el SQL para la tabla marque la casilla "Crear una nueva tabla".</b></p><p>Este formulario generar&aacute; un m&oacute;dulo completo de CodeIgniter (modelo, controlador y vista) y si usted lo selecciona un archivo de Migraci&oacute;n.</p>';
+$lang['mb_form_note'] 			= '<p><b>Este formulario generar&aacute; un m&oacute;dulo completo de CodeIgniter (modelo, controlador y vista) y un archivo de Migraci&oacute;n.</b></p>';
 
-$lang['mb_table_note'] 			= '<p>Su tabla se crear&aacute; con al menos un campo: de clave primaria que ser&aacute; usado como identificador &uacute;nico y como un &iacute;ndice. Si requiere campos adicionales, haga clic en el n&uacute;mero que necesita para agregarlos a este formulario.</p>';
+$lang['mb_table_note'] 			= '<p>Su tabla se crear&aacute; con al menos un campo de clave primaria que ser&aacute; usado como identificador &uacute;nico y como un &iacute;ndice. Si requiere campos adicionales, haga clic en el n&uacute;mero que necesita para agregarlos a este formulario.</p>';
 
-$lang['mb_field_note'] 			= '<p><b>NOTA : PARA TODOS LOS CAMPOS</b><br />Si su campo para la tabla es de tipo "enum" o "set", por favor ingrese los valores usando este formato: \'a\',\'b\',\'c\'...<br />Si alguna vez necesita poner una barra invertida ("\") o una sola comilla ("\'") entre esos valores, precedalos con una barra invertida (por ejemplo \'\\xyz\' or \'a\\\'b\').</p>';
+$lang['mb_field_note'] 			= '<p><b>NOTA: PARA TODOS LOS CAMPOS</b><br />Si su campo para la tabla es de tipo "enum" o "set", por favor ingrese los valores usando este formato: \'a\',\'b\',\'c\'...<br />Si alguna vez necesita poner una barra invertida ("\") o una sola comilla ("\'") entre esos valores, precedalos con una barra invertida (por ejemplo \'\\xyz\' or \'a\\\'b\').</p>';
 	
 $lang['mb_form_errors']			= 'Por favor corrija los siguientes errores.';
 $lang['mb_form_mod_details']	= 'Detalles del m&oacute;dulo';
@@ -124,5 +124,10 @@ $lang['mb_form_valid_base64']	= 'Base64 v&aacute;lido';
 $lang['mb_form_alpha_extra']	= 'Alfanumerico, subrayado, guiones, periodos y espacios.';
 
 // Activities
-$lang['mb_act_create']	= 'M&oacute;dulo creado';
-$lang['mb_act_delete']	= 'M&oacute;dulo eliminado';
+$lang['mb_act_create']			= 'M&oacute;dulo creado';
+$lang['mb_act_delete']			= 'M&oacute;dulo eliminado';
+
+$lang['mb_form_button']			= 'Generar Módulo';
+$lang['mb_form_none']			= 'Ninguno';
+$lang['mb_form_new_table']		= 'Crear una nueva tabla';
+$lang['mb_form_existing_table']	= 'Desde una tabla existente';

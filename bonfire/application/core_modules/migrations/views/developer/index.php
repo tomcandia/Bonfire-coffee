@@ -14,10 +14,10 @@
 
 		<ul class="nav nav-tabs">
 			<li class="active">
-				<a href="#app-tab" data-toggle="tab">Application</a>
+				<a href="#app-tab" data-toggle="tab"><?php echo lang('mig_app'); ?></a>
 			</li>
 			<li>
-				<a href="#mod-tab" data-toggle="tab">Modules</a>
+				<a href="#mod-tab" data-toggle="tab"><?php echo lang('mig_module'); ?></a>
 			</li>
 			<li>
 				<a href="#core-tab" data-toggle="tab">Bonfire</a>
