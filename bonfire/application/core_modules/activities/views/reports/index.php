@@ -118,7 +118,11 @@
 
 
 <div class="admin-box">
+<<<<<<< HEAD
 	<h3><?php echo lang('activity_cleanup'); ?></h3>
+=======
+	<h3>Activity Cleanup</h3>
+>>>>>>> FETCH_HEAD
 
 	<?php $empty_table = true; ?>
 

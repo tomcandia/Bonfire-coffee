@@ -69,7 +69,11 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
+<<<<<<< HEAD
 $config['language']	= 'spanish';
+=======
+$config['language']	= 'english';
+>>>>>>> FETCH_HEAD
 
 /*
 |--------------------------------------------------------------------------
@@ -357,4 +361,8 @@ $config['proxy_ips'] = '';
 
 
 /* End of file config.php */
+<<<<<<< HEAD
 /* Location: ./application/config/config.php */
+=======
+/* Location: ./application/config/config.php */
+>>>>>>> FETCH_HEAD

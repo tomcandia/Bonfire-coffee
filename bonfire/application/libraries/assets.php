@@ -1356,7 +1356,16 @@ class Assets
 						echo '</ul>' . PHP_EOL;
 					}
 
+<<<<<<< HEAD
 					if (!$bypass_inheritance)
+=======
+					/*
+					 * If default_theme and active_theme are the same,
+					 * checking the default_theme would just repeat the
+					 * active_theme section below, resulting in duplicates
+					 */
+					if (!$bypass_inheritance && $default_theme !== $active_theme)
+>>>>>>> FETCH_HEAD
 					{
 						/*
 							DEFAULT THEME

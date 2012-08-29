@@ -1,8 +1,14 @@
 	<footer class="container-fluid footer">
 		<p class="pull-right">
+<<<<<<< HEAD
 			Ejecutado en {elapsed_time} segundos, usando {memory_usage}.
 			<br/>
 			Desarrollado por <a href="http://cibonfire.com" target="_blank"><i class="icon-fire">&nbsp;</i>&nbsp;Bonfire</a> <?php echo BONFIRE_VERSION ?>
+=======
+			Executed in {elapsed_time} seconds, using {memory_usage}.
+			<br/>
+			Powered by <a href="http://cibonfire.com" target="_blank"><i class="icon-fire">&nbsp;</i>&nbsp;Bonfire</a> <?php echo BONFIRE_VERSION ?>
+>>>>>>> FETCH_HEAD
 		</p>
 	</footer>
 

@@ -29,7 +29,11 @@
 						<label class="control-label" for="<?= $field['name'] ?>"><?php echo lang('user_meta_state'); ?></label>
 						<div class="controls">
 
+<<<<<<< HEAD
 							<?php echo state_select(set_value($field['name'], isset($user->$field['name']) ? $user->$field['name'] : 'AN'), 'AN', 'CO', $field['name'], 'span6 chzn-select'); ?>
+=======
+							<?php echo state_select(set_value($field['name'], isset($user->$field['name']) ? $user->$field['name'] : 'SC'), 'SC', 'US', $field['name'], 'span6 chzn-select'); ?>
+>>>>>>> FETCH_HEAD
 
 						</div>
 					</div>
@@ -39,7 +43,11 @@
 					<div class="control-group <?php echo iif( form_error('country') , 'error'); ?>">
 						<label class="control-label" for="country"><?php echo lang('user_meta_country'); ?></label>
 						<div class="controls">
+<<<<<<< HEAD
 							<?php echo country_select(set_value($field['name'], isset($user->$field['name']) ? $user->$field['name'] : 'CO'), 'CO', 'country', 'span6 chzn-select'); ?>
+=======
+							<?php echo country_select(set_value($field['name'], isset($user->$field['name']) ? $user->$field['name'] : 'US'), 'US', 'country', 'span6 chzn-select'); ?>
+>>>>>>> FETCH_HEAD
 
 						</div>
 					</div>

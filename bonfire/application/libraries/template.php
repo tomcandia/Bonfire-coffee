@@ -42,7 +42,11 @@ class Template
 	 *
 	 * @var bool
 	 */
+<<<<<<< HEAD
 	private static $debug = FALSE;
+=======
+	private static $debug = false;
+>>>>>>> FETCH_HEAD
 
 
 	/**
@@ -267,8 +271,14 @@ class Template
 
 		// Grab our current view name, based on controller/method
 		// which routes to views/controller/method.
+<<<<<<< HEAD
 		if (empty(self::$current_view))
 		{
+=======
+		
+		if (empty(self::$current_view))
+		{			
+>>>>>>> FETCH_HEAD
 			self::$current_view =  self::$ci->router->class . '/' . self::$ci->router->method;
 		}
 
@@ -802,12 +812,20 @@ class Template
 	 * http request.
 	 *
 	 * @access public
+<<<<<<< HEAD
+=======
+	 * @static
+>>>>>>> FETCH_HEAD
 	 *
 	 * @param string $url The url to redirect to. If not a full url, will wrap it in site_url().
 	 *
 	 * @return void
 	 */
+<<<<<<< HEAD
 	public function redirect($url=NULL)
+=======
+	public static function redirect($url=NULL)
+>>>>>>> FETCH_HEAD
 	{
 		$url = strpos($url, 'http') === FALSE ? site_url($url) : $url;
 
@@ -860,6 +878,7 @@ class Template
 			// if $output is empty, no view was overriden, so go for the default
 			if (empty($output))
 			{
+<<<<<<< HEAD
 				//self::$ci->load->_ci_view_path = self::$orig_view_path;
 
 				if (self::$parse_views === TRUE)
@@ -873,6 +892,21 @@ class Template
 					
 					$output = self::$ci->load->_ci_load(array('_ci_path' => $view_path.$view.'.php','_ci_vars' => $data,'_ci_return' => TRUE));
 					
+=======
+				self::$ci->load->_ci_view_path = self::$orig_view_path;
+
+
+				if (self::$parse_views === TRUE)
+				{
+
+					if (!class_exists('CI_Parser'))
+					{
+						self::$ci->load->library('parser');
+					}
+					
+//					$output = self::$ci->load->_ci_load(array('_ci_path' => $view.'.php','_ci_vars' => $data,'_ci_return' => TRUE));
+
+>>>>>>> FETCH_HEAD
 					if (count($data) > 0)
 					{
 						$temp = array();
@@ -889,7 +923,14 @@ class Template
 						$data = $temp;
 						unset($temp);
 					}
+<<<<<<< HEAD
 					
+=======
+
+					$data = (array) $data;
+
+					//$output = self::$ci->load->view($view, $data, TRUE);
+>>>>>>> FETCH_HEAD
 					$output = self::$ci->parser->parse($view, $data, TRUE);
 				}
 				else
@@ -897,6 +938,10 @@ class Template
 					$output = self::$ci->load->view($view, $data, TRUE);
 				}
 			}
+<<<<<<< HEAD
+=======
+			self::$ci->load->_ci_view_path = self::$orig_view_path;
+>>>>>>> FETCH_HEAD
 		}//end if
 
 		// Put our ci view path back to normal
@@ -977,7 +1022,14 @@ class Template
 			// Grab the output of the view.
 			if (self::$parse_views === TRUE)
 			{
+<<<<<<< HEAD
 				$output = self::$ci->parser->parse($view, $data, TRUE);
+=======
+				$output = self::$ci->load->_ci_load(array('_ci_path' => $view_path . $view .'.php', '_ci_vars' => $data, '_ci_return' => TRUE));
+
+				//This caused Parsing to die if parsing entire template file.
+				//$output = self::$ci->parser->parse($view_path.$view, $data, TRUE, TRUE);
+>>>>>>> FETCH_HEAD
 			} else
 			{
 				$output = self::$ci->load->_ci_load(array('_ci_path' => $view_path . $view .'.php', '_ci_vars' => $data, '_ci_return' => TRUE));
@@ -1143,7 +1195,11 @@ function breadcrumb($my_segments=NULL, $wrap=FALSE, $echo=TRUE)
 	if ( $ci->config->item('template.breadcrumb_symbol') == '' )
 	{
 		$seperator = '/';
+<<<<<<< HEAD
 	} 
+=======
+	}
+>>>>>>> FETCH_HEAD
 	else
 	{
 		$seperator = $ci->config->item('template.breadcrumb_symbol');
@@ -1159,8 +1215,13 @@ function breadcrumb($my_segments=NULL, $wrap=FALSE, $echo=TRUE)
 	{
 		$segments = $ci->uri->segment_array();
 		$total    = $ci->uri->total_segments();
+<<<<<<< HEAD
 	} 
 	else 
+=======
+	}
+	else
+>>>>>>> FETCH_HEAD
 	{
 		$segments = $my_segments;
 		$total    = count($my_segments);
@@ -1171,8 +1232,13 @@ function breadcrumb($my_segments=NULL, $wrap=FALSE, $echo=TRUE)
 	if ( $in_admin == TRUE )
 	{
 		$home_link = site_url(SITE_AREA);
+<<<<<<< HEAD
 	} 
 	else 
+=======
+	}
+	else
+>>>>>>> FETCH_HEAD
 	{
 		$home_link = site_url();
 	}
@@ -1181,8 +1247,13 @@ function breadcrumb($my_segments=NULL, $wrap=FALSE, $echo=TRUE)
 	{
 		$output  = '<ul class="breadcrumb">' . PHP_EOL;
 		$output .= '<li><a href="'.$home_link.'"><i class="icon-home">&nbsp;</i></a> '.$seperator.'</li>' . PHP_EOL;
+<<<<<<< HEAD
 	} 
 	else 
+=======
+	}
+	else
+>>>>>>> FETCH_HEAD
 	{
 		$output  = '<a href="'.$home_link.'">home</a> '.$seperator;
 	}
@@ -1203,6 +1274,7 @@ function breadcrumb($my_segments=NULL, $wrap=FALSE, $echo=TRUE)
 				if ($wrap === TRUE)
 				{
 					$output .= '<li class="active">' . ucfirst(str_replace('_', ' ', $segment)) . '</li>' . PHP_EOL;
+<<<<<<< HEAD
 				} 
 				else 
 				{
@@ -1210,19 +1282,38 @@ function breadcrumb($my_segments=NULL, $wrap=FALSE, $echo=TRUE)
 				}
 			} 
 			else 
+=======
+				}
+				else
+				{
+					$output .= ucfirst(str_replace('_', ' ', $segment)) . PHP_EOL;
+				}
+			}
+			else
+>>>>>>> FETCH_HEAD
 			{
 				if ($wrap === TRUE)
 				{
 					$output .= '<li><a href="'. $url .'">'. str_replace('_', ' ', ucfirst(mb_strtolower($segment))) .'</a>' . $seperator . '</li>' . PHP_EOL;
+<<<<<<< HEAD
 				} 
 				else 
+=======
+				}
+				else
+>>>>>>> FETCH_HEAD
 				{
 					$output .= '<a href="'. $url .'">'. str_replace('_', ' ', ucfirst(mb_strtolower($segment))) .'</a>' . $seperator . PHP_EOL;
 				}
 			}
 		}
+<<<<<<< HEAD
 	} 
 	else 
+=======
+	}
+	else
+>>>>>>> FETCH_HEAD
 	{
 		// USER-SUPPLIED BREADCRUMB
 		foreach ($my_segments as $title => $uri)
@@ -1235,21 +1326,36 @@ function breadcrumb($my_segments=NULL, $wrap=FALSE, $echo=TRUE)
 				if ($wrap === TRUE)
 				{
 					$output .= '<li class="active">' . str_replace('_', ' ', $title) . '</li>' . PHP_EOL;
+<<<<<<< HEAD
 				} 
 				else 
+=======
+				}
+				else
+>>>>>>> FETCH_HEAD
 				{
 					$output .= str_replace('_', ' ', $title);
 				}
 
+<<<<<<< HEAD
 			} 
 			else 
+=======
+			}
+			else
+>>>>>>> FETCH_HEAD
 			{
 
 				if ($wrap === TRUE)
 				{
 					$output .= '<li><a href="'. $url .'">'. str_replace('_', ' ', ucfirst(mb_strtolower($title))) .'</a>' . $seperator . '</li>' . PHP_EOL;
+<<<<<<< HEAD
 				} 
 				else 
+=======
+				}
+				else
+>>>>>>> FETCH_HEAD
 				{
 					$output .= '<a href="'. $url .'">'. str_replace('_', ' ', ucfirst(mb_strtolower($title))) .'</a>' . $seperator . PHP_EOL;
 				}
@@ -1269,8 +1375,13 @@ function breadcrumb($my_segments=NULL, $wrap=FALSE, $echo=TRUE)
 	{
 		echo $output;
 		unset ($output);
+<<<<<<< HEAD
 	} 
 	else 
+=======
+	}
+	else
+>>>>>>> FETCH_HEAD
 	{
 		return $output;
 	}

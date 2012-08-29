@@ -43,12 +43,20 @@
 					</a>
 					<h1><?php echo anchor( '/', $this->settings_lib->item('site.title'), 'class="brand"' ); ?></h1>
 
+<<<<<<< HEAD
 					
+=======
+
+>>>>>>> FETCH_HEAD
 					<?php if(isset($shortcut_data) && is_array($shortcut_data['shortcuts']) && is_array($shortcut_data['shortcut_keys']) && count($shortcut_data['shortcut_keys'])):?>
 					<!-- Shortcut Menu -->
 					<div class="nav pull-right" id="shortcuts">
 					<div class="btn-group">
+<<<<<<< HEAD
 						<a class="dropdown-toggle dark btn" data-toggle="dropdown" href="#"><img src="<?php echo Template::theme_url('images/keyboard-icon.png') ?>" id="shortkeys_show" title="Keyboard Shortcuts" alt="Keyboard Shortcuts"/></a>
+=======
+						<a class="dropdown-toggle light btn" data-toggle="dropdown" href="#"><img src="<?php echo Template::theme_url('images/keyboard-icon.png') ?>" id="shortkeys_show" title="Keyboard Shortcuts" alt="Keyboard Shortcuts"/></a>
+>>>>>>> FETCH_HEAD
 						<ul class="dropdown-menu toolbar-keys">
 								<li>
 										<div class="inner keys">
@@ -77,7 +85,12 @@
 								<a href="<?php echo site_url(SITE_AREA .'/settings/users/edit') ?>" id="tb_email" class="btn dark" title="<?php echo lang('bf_user_settings') ?>">
 									<?php echo (isset($current_user->display_name) && !empty($current_user->display_name)) ? $current_user->display_name : ($this->settings_lib->item('auth.use_usernames') ? $current_user->username : $current_user->email); ?>
 								</a>
+<<<<<<< HEAD
 								<a class="btn dropdown-toggle dark" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+=======
+								<!-- Change **light** to **dark** to match colors -->
+								<a class="btn dropdown-toggle light" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+>>>>>>> FETCH_HEAD
 								<ul class="dropdown-menu toolbar-profile">
 									<li>
 										<div class="inner">
@@ -98,7 +111,11 @@
 								</ul>
 							</div>
 						</div>
+<<<<<<< HEAD
 					
+=======
+
+>>>>>>> FETCH_HEAD
 						<?php echo Contexts::render_menu('text', 'normal'); ?>
 					</div> <!-- END OF nav-collapse -->
 
@@ -114,7 +131,11 @@
 		<?php if (isset($toolbar_title)) : ?>
 			<h1><?php echo $toolbar_title ?></h1>
 		<?php endif; ?>
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> FETCH_HEAD
 		<div class="pull-right" id="sub-menu">
 			<?php Template::block('sub_nav', ''); ?>
 		</div>

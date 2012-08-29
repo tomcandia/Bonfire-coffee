@@ -65,7 +65,11 @@
 	<div class="control-group">
 		<label class="control-label" for="submit">&nbsp;</label>
 		<div class="controls">
+<<<<<<< HEAD
 			<input class="btn btn-primary" type="submit" name="submit" id="submit" value="<?php echo lang('bf_action_login') ?>" tabindex="5" />
+=======
+			<input class="btn btn-primary" type="submit" name="submit" id="submit" value="Let Me In" tabindex="5" />
+>>>>>>> FETCH_HEAD
 		</div>
 	</div>
 <?php echo form_close(); ?>

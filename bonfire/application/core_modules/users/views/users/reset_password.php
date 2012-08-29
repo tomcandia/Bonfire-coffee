@@ -1,12 +1,20 @@
 		<div class="page-header">
+<<<<<<< HEAD
 				<h1><?php echo lang('us_reset_password'); ?></h1>
+=======
+				<h1>Reset Your Password</h1>
+>>>>>>> FETCH_HEAD
 		</div>
 
 		<div class="row-fluid">
 			<div class="span12">
 				<div class="alert alert-info fade in">
 						<a data-dismiss="alert" class="close">&times;</a>
+<<<<<<< HEAD
 						<h4 class="alert-heading"><?php echo lang('us_reset_msg'); ?>.</h4>
+=======
+						<h4 class="alert-heading">Enter your new password below to reset your password.</h4>
+>>>>>>> FETCH_HEAD
 				</div>
 			</div>
 		</div>
@@ -48,7 +56,11 @@
 	<div class="control-group">
 		<label class="control-label" for="submit">&nbsp;</label>
 		<div class="controls">
+<<<<<<< HEAD
 			<input class="btn btn-primary" type="submit" name="submit" id="submit" value="<?php echo lang('us_button_password'); ?>"  />
+=======
+			<input class="btn btn-primary" type="submit" name="submit" id="submit" value="Save New Password"  />
+>>>>>>> FETCH_HEAD
 		</div>
 	</div>
 

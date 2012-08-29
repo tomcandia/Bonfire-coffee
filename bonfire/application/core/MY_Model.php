@@ -395,6 +395,60 @@ class BF_Model extends CI_Model
 	}//end insert()
 
 	//---------------------------------------------------------------
+<<<<<<< HEAD
+=======
+	
+	/**
+	 * Inserts a batch of data into the database.
+	 *
+	 * @param array $data an array of key/value pairs to insert.
+	 *
+	 * @return bool|mixed Either the $id of the row inserted, or FALSE on failure.
+	 */
+	public function insert_batch($data=NULL)
+	{
+		if ($this->_function_check(FALSE, $data) === FALSE)
+		{
+			return FALSE;
+		}
+		
+		$set = array();
+
+		// Add the created field
+		if ($this->set_created === TRUE )
+		{
+			$set[$this->created_field] = $this->set_date();
+		} 
+
+		if ($this->set_created === TRUE && $this->log_user === TRUE)
+		{
+			$set[$this->created_by_field] = $this->auth->user_id();
+		}
+
+		if(!empty($set))
+		{
+			foreach($data as $key => $record)
+			{
+				$data[$key] = array_merge($set,$data[$key]);
+			}
+		}
+
+
+		// Insert it
+		$status = $this->db->insert_batch($this->table, $data);
+
+		if ($status === FALSE)
+		{
+			$this->error = mysql_error();
+			return FALSE;
+		}
+
+		return TRUE;
+
+	}//end insert_batch()
+
+	//---------------------------------------------------------------
+>>>>>>> FETCH_HEAD
 
 	/**
 	 * Updates an existing row in the database.
@@ -1169,4 +1223,8 @@ class MY_Model extends BF_Model { }
 // END: Class MY_model
 
 /* End of file MY_Model.php */
+<<<<<<< HEAD
 /* Location: ./application/core/MY_Model.php */
+=======
+/* Location: ./application/core/MY_Model.php */
+>>>>>>> FETCH_HEAD

@@ -45,7 +45,11 @@ class Settings extends Admin_Controller
 		$this->auth->restrict('Bonfire.Settings.View');
 		$this->auth->restrict('Bonfire.Settings.Manage');
 
+<<<<<<< HEAD
 		Template::set('toolbar_title', 'Configuraciones');
+=======
+		Template::set('toolbar_title', 'Site Settings');
+>>>>>>> FETCH_HEAD
 
 		$this->load->helper('config_file');
 		$this->lang->load('settings');

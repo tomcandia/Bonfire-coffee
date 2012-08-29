@@ -73,6 +73,18 @@ class Events
 
 		self::$events = read_config('events');
 
+<<<<<<< HEAD
+=======
+        // merge other modules events
+        foreach(module_list(TRUE) as $module)
+        {
+            if($module_events = read_config('events', TRUE, $module))
+            {
+                self::$events = array_merge_recursive(self::$events, $module_events);
+            }
+        }
+
+>>>>>>> FETCH_HEAD
 		if (self::$events == false)
 		{
 			self::$events = array();
@@ -132,6 +144,15 @@ class Events
 
 			if (!class_exists($subscriber['class']))
 			{
+<<<<<<< HEAD
+=======
+                // if class doesn't exist check that the function is callable
+                // could be just a helper function
+                if(is_callable($subscriber['method']))
+                {
+                    call_user_func($subscriber['method'], $payload);
+                }
+>>>>>>> FETCH_HEAD
 				continue;
 			}
 
