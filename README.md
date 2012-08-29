@@ -16,7 +16,7 @@ Bonfire-Coffee es el proyecto que busca ofrecer esta misma capacidad pero prepar
 - Idioma español por defecto en todo el sistema
 - Frontend traducido al español
 - Backend traducido al español
-- Basado en Bonfire 0.6Dev del 18 de Julio de 2012
+- Basado en Bonfire 0.6Dev al 29 de agosto de 2012
 
 ## Hoja de Ruta
 
