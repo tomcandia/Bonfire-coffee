@@ -131,3 +131,11 @@ $lang['mb_form_button']			= 'Generar Módulo';
 $lang['mb_form_none']			= 'Ninguno';
 $lang['mb_form_new_table']		= 'Crear una nueva tabla';
 $lang['mb_form_existing_table']	= 'Desde una tabla existente';
+
+$lang['mb_create_a_context']	= 'Crear un Contexto';
+$lang['mb_tools']				= 'Herramienta';
+$lang['mb_mod_builder']			= 'Generador de M&oacute;dulos';
+$lang['mb_new_context']			= 'Nuevo Contexto';
+$lang['mb_no_context_name']		= 'Nombre inv&aacute;lido para el Contexto.';
+$lang['mb_cant_write_config']	= 'No es posible escribir en el archivo de configuraci&oacute;n.';
+$lang['mb_context_exists']		= 'Ya existe el Contexto en el archivo de configuraci&oacute;n.';
