@@ -117,8 +117,6 @@ class Contexts
 	 * @var array
 	 */
 	protected static $contexts = array();
-<<<<<<< HEAD
-=======
 	
 	/**
 	 * Stores errors created during the 
@@ -130,7 +128,6 @@ class Contexts
 	 * @var array
 	 */
 	protected static $errors = array();
->>>>>>> FETCH_HEAD
 
 	//--------------------------------------------------------------------
 
@@ -214,8 +211,6 @@ class Contexts
 
 
 	//--------------------------------------------------------------------
-<<<<<<< HEAD
-=======
 	
 	/**
 	 * Returns a string of any errors during the create context process.
@@ -241,7 +236,6 @@ class Contexts
 	}
 	
 	//--------------------------------------------------------------------
->>>>>>> FETCH_HEAD
 
 	/**
 	 * Renders a list-based menu (with submenus) for each context.
@@ -467,9 +461,6 @@ class Contexts
 
 	//--------------------------------------------------------------------
 
-<<<<<<< HEAD
-
-=======
 	//--------------------------------------------------------------------
 	// !BUILDER METHODS
 	//--------------------------------------------------------------------
@@ -568,7 +559,6 @@ class Contexts
 	}
 	
 	//--------------------------------------------------------------------
->>>>>>> FETCH_HEAD
 
 	//--------------------------------------------------------------------
 	// !UTILITY METHODS

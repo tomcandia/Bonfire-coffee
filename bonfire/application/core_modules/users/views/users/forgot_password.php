@@ -37,11 +37,7 @@
 	<div class="control-group">
 		<label class="control-label" for="submit">&nbsp;</label>
 		<div class="controls">
-<<<<<<< HEAD
 			<input class="btn btn-primary" type="submit" name="submit" value="<?php echo lang('us_button_enter'); ?>"  />
-=======
-			<input class="btn btn-primary" type="submit" name="submit" value="Send Password"  />
->>>>>>> FETCH_HEAD
 		</div>
 	</div>
 

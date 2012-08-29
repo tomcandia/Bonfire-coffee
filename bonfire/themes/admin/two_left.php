@@ -10,14 +10,6 @@ Assets::add_js(array(
 <?php echo theme_view('partials/_header'); ?>
 
 <div class="container-fluid body">
-<<<<<<< HEAD
-	<div class="row-fluid">
-		<div class="span12">
-			<?php echo breadcrumb( NULL, TRUE, TRUE); ?>
-		</div>
-	</div>
-=======
->>>>>>> FETCH_HEAD
 
 	<div class="row-fluid">
 		<div class="span2">

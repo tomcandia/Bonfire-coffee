@@ -65,8 +65,6 @@ if ( ! function_exists('_form_common'))
 			unset($data['name']);
 		}
 
-<<<<<<< HEAD
-=======
 		// If label is empty at this point, try to grab it from the $data array
 		if (empty($label) && is_array($data) && isset($data['label']))
 		{
@@ -81,7 +79,6 @@ if ( ! function_exists('_form_common'))
 			unset($data['tooltip']);
 		}
 
->>>>>>> FETCH_HEAD
 		$error = '';
 
 		if (function_exists('form_error'))

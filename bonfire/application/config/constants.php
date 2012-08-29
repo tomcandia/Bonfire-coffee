@@ -37,11 +37,8 @@ define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 
-<<<<<<< HEAD
 define('BONFIRE_VERSION', 'v0.6-beta');
-=======
-define('BONFIRE_VERSION', 'v0.6-dev');
->>>>>>> FETCH_HEAD
+
 
 /*
 	The 'App Area' allows you to specify the base folder used for all of

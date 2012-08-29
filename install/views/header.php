@@ -1,9 +1,5 @@
 <!doctype html>
-<<<<<<< HEAD
 <html lang="es">
-=======
-<html lang="en">
->>>>>>> FETCH_HEAD
 <head>
 	<meta charset="UTF-8" />
 
@@ -22,13 +18,9 @@
 		<!-- Header -->
 		<div class="head text-right">
 			<div class="inner">
-<<<<<<< HEAD
 				<!--<h1><img src="<?php echo site_url('views/images/bonfire_logo.png') ?>" /></h1>-->
 				<h1>Bonfire-coffee</h1>
 				<h4>Desarrollo r&aacute;pido de aplicaciones web.</h4>
-=======
-				<h1><img src="<?php echo site_url('views/images/bonfire_logo.png') ?>" /></h1>
->>>>>>> FETCH_HEAD
 			</div>
 		</div>
 
@@ -50,8 +42,5 @@
 			<div class="notification success">
 				<p><?php echo $success; ?></p>
 			</div>
-<<<<<<< HEAD
+
 			<?php endif; ?>
-=======
-			<?php endif; ?>
->>>>>>> FETCH_HEAD

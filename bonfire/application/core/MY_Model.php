@@ -395,8 +395,6 @@ class BF_Model extends CI_Model
 	}//end insert()
 
 	//---------------------------------------------------------------
-<<<<<<< HEAD
-=======
 	
 	/**
 	 * Inserts a batch of data into the database.
@@ -448,7 +446,6 @@ class BF_Model extends CI_Model
 	}//end insert_batch()
 
 	//---------------------------------------------------------------
->>>>>>> FETCH_HEAD
 
 	/**
 	 * Updates an existing row in the database.
@@ -1223,8 +1220,4 @@ class MY_Model extends BF_Model { }
 // END: Class MY_model
 
 /* End of file MY_Model.php */
-<<<<<<< HEAD
 /* Location: ./application/core/MY_Model.php */
-=======
-/* Location: ./application/core/MY_Model.php */
->>>>>>> FETCH_HEAD

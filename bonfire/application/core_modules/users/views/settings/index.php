@@ -6,7 +6,6 @@
 	<h3><?php echo lang('bf_users') ?></h3>
 
 	<ul class="nav nav-tabs" >
-<<<<<<< HEAD
 		<li <?php echo $filter=='' ? 'class="active"' : ''; ?>><a href="<?php echo $current_url; ?>"><?php echo lang('us_all_users') ?></a></li>
 		<li <?php echo $filter=='inactive' ? 'class="active"' : ''; ?>><a href="<?php echo $current_url .'?filter=inactive'; ?>"><?php echo lang('us_inactive') ?></a></li>
 		<li <?php echo $filter=='banned' ? 'class="active"' : ''; ?>><a href="<?php echo $current_url .'?filter=banned'; ?>"><?php echo lang('us_banned') ?></a></li>
@@ -14,15 +13,6 @@
 		<li class="<?php echo $filter=='role' ? 'active ' : ''; ?>dropdown">
 			<a href="#" class="drodown-toggle" data-toggle="dropdown">
 				<?php echo lang('us_by_role') ?> <?php echo isset($filter_role) ? ": $filter_role" : ''; ?>
-=======
-		<li <?php echo $filter=='' ? 'class="active"' : ''; ?>><a href="<?php echo $current_url; ?>">All Users</a></li>
-		<li <?php echo $filter=='inactive' ? 'class="active"' : ''; ?>><a href="<?php echo $current_url .'?filter=inactive'; ?>">Inactive</a></li>
-		<li <?php echo $filter=='banned' ? 'class="active"' : ''; ?>><a href="<?php echo $current_url .'?filter=banned'; ?>">Banned</a></li>
-		<li <?php echo $filter=='deleted' ? 'class="active"' : ''; ?>><a href="<?php echo $current_url .'?filter=deleted'; ?>">Deleted</a></li>
-		<li class="<?php echo $filter=='role' ? 'active ' : ''; ?>dropdown">
-			<a href="#" class="drodown-toggle" data-toggle="dropdown">
-				By Role <?php echo isset($filter_role) ? ": $filter_role" : ''; ?>
->>>>>>> FETCH_HEAD
 				<b class="caret light-caret"></b>
 			</a>
 			<ul class="dropdown-menu">

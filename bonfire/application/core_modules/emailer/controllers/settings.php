@@ -121,11 +121,7 @@ class Settings extends Admin_Controller
 
 		Assets::add_module_js('emailer', 'js/settings');
 
-<<<<<<< HEAD
 		Template::set('toolbar_title', 'Configuraci&oacute;n de Correo');
-=======
-		Template::set('toolbar_title', 'Email Settings');
->>>>>>> FETCH_HEAD
 
 		Template::render();
 

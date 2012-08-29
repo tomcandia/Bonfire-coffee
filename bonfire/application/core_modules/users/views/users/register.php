@@ -33,11 +33,7 @@
 	<div class="control-group <?php echo iif( form_error('email') , 'error'); ?>">
 		<label class="control-label required" for="email"><?php echo lang('bf_email'); ?></label>
 		<div class="controls">
-<<<<<<< HEAD
 		 <input class="span6" type="text" name="email" id="email"  value="<?php echo set_value('email'); ?>"  placeholder="<?php echo lang('bf_email'); ?>" />
-=======
-		 <input class="span6" type="text" name="email" id="email"  value="<?php echo set_value('email'); ?>"  placeholder="email" />
->>>>>>> FETCH_HEAD
 		</div>
 	</div>
 
@@ -53,11 +49,7 @@
 	<div class="control-group <?php echo iif( form_error('username') , 'error'); ?>">
 		<label class="control-label required" for="username"><?php echo lang('bf_username'); ?></label>
 		<div class="controls">
-<<<<<<< HEAD
 			<input class="span6" type="text" name="username" id="username" value="<?php echo set_value('username') ?>" placeholder="<?php echo lang('bf_username'); ?>" />
-=======
-			<input class="span6" type="text" name="username" id="username" value="<?php echo set_value('username') ?>" placeholder="username" />
->>>>>>> FETCH_HEAD
 		</div>
 	</div>
 
@@ -67,11 +59,7 @@
 		<div class="control-group <?php echo iif( form_error('password') , 'error'); ?>">
 			<label class="control-label required" for="password"><?php echo lang('bf_password'); ?></label>
 			<div class="controls">
-<<<<<<< HEAD
 				<input class="span6" type="password" name="password" id="password" value="" placeholder="<?php echo lang('bf_password'); ?>" />
-=======
-				<input class="span6" type="password" name="password" id="password" value="" placeholder="password" />
->>>>>>> FETCH_HEAD
 				<p class="help-block"><?php echo lang('us_password_mins'); ?></p>
 			</div>
 		</div>
@@ -132,8 +120,4 @@
 
 	</div>
 </div>
-<<<<<<< HEAD
 </section>
-=======
-</section>
->>>>>>> FETCH_HEAD

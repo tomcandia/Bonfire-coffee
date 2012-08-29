@@ -1,7 +1,7 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 $config['module_config'] = array(
-	'description'	=> 'Speeds up creating the core code for new modules.',
+	'description'	=> 'R&aacute;pida creaci&oacute;n de c&oacute;digo base para los nuevos m&oacute;dulos.',
 	'author'		=> 'Bonfire Team',
-	'name'			=> 'Code Builder'
+	'name'			=> 'Generador de M&oacute;dulos'
 );

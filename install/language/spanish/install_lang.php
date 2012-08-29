@@ -69,3 +69,8 @@ $lang['in_env_dev']				= 'Desarrollo';
 $lang['in_env_test']			= 'Pruebas';
 $lang['in_env_prod']			= 'Producci&oacute;n';
 $lang['in_reload']				= 'Recargar P&aacute;gina';
+
+$lang['in_installed']					= 'Bonfire ya se encuentra instalado. Por favor elimine o renombre la carpeta install';
+$lang['in_rename_msg']					= 'Si lo desea, nosotros podemos renombrarla por usted.';
+$lang['continue']						= 'continuar';
+$lang['click']							= 'Clic aqu&iacute;';

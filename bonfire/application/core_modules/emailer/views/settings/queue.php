@@ -8,13 +8,8 @@
 		<p><b><?php echo lang('em_total_sent'); ?></b> <?php echo $total_sent ? $total_sent : '0' ?></p>
 	</div>
 	<div class="column size1of3 last-column text-right">
-<<<<<<< HEAD
 		<a href="<?php echo site_url(SITE_AREA . '/settings/emailer/force_process'); ?>" class="btn btn-primary"><?php echo lang('em_process'); ?></a>
 		<a href="<?php echo site_url(SITE_AREA . '/settings/emailer/insert_test'); ?>" class="btn btn-warning"><?php echo lang('em_add_test_mail'); ?></a>
-=======
-		<a href="<?php echo site_url(SITE_AREA . '/settings/emailer/force_process'); ?>" class="btn btn-primary">Process Now</a>
-		<a href="<?php echo site_url(SITE_AREA . '/settings/emailer/insert_test'); ?>" class="btn btn-warning">Insert Test Email</a>
->>>>>>> FETCH_HEAD
 	</div>
 </div>
 

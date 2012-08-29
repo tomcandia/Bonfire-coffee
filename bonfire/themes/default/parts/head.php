@@ -1,16 +1,9 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="es">
   <head>
     <meta charset="utf-8">
     <title><?php echo $this->settings_lib->item('site.title'); ?></title>
-=======
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title><?php echo $this->settings_lib->item('site.title'); ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
->>>>>>> FETCH_HEAD
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -27,11 +20,6 @@
   </head>
 <body>
 <!--[if lt IE 7]>
-<<<<<<< HEAD
 		<p class=chromeframe>Su navegador es <em>antig&uuml;o!</em> <a href="http://browsehappy.com/">actualice a uno m&aacute;s reciente</a> o
 		<a href="http://www.google.com/chromeframe/?redirect=true">instale Google Chrome Frame</a> para una mejor experiencia en este sitio web.</p>
-=======
-		<p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or
-		<a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
->>>>>>> FETCH_HEAD
 <![endif]-->

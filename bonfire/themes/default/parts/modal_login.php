@@ -21,11 +21,7 @@
 			<div class="control-group">
 				<label class="control-label" for="password"><?php echo lang('bf_password') ?></label>
 				<div class="controls">
-<<<<<<< HEAD
 					<input type="password" name="password" class="input-xlarge" placeholder="<?php echo lang('bf_password') ?>" value="">
-=======
-					<input type="password" name="password" class="input-xlarge" placeholder="Password" value="">
->>>>>>> FETCH_HEAD
 				</div>
 			</div>
 
@@ -49,29 +45,17 @@
 	</div>
 
 	<div class="modal-footer">
-<<<<<<< HEAD
-			<?php if ($this->settings_lib->item('auth.allow_register')) : ?>
-				<p style="text-align: center">
-					<?php echo lang('us_no_account'); ?> <a href="<?php echo site_url('register') ?>"><?php echo lang('bf_action_register'); ?>!</a> |
-					<a href="<?php echo site_url('forgot_password') ?>"><?php echo lang('bf_forgot_password'); ?></a>
-				</p>
-			<?php endif; ?>
-=======
 		<p style="text-align: center">
 			<?php if ($this->settings_lib->item('auth.allow_register')) : ?>
-				No account? <a href="<?php echo site_url('register') ?>"><?php echo lang('bf_action_register'); ?>!</a> |
+				<?php echo lang('us_no_account'); ?> <a href="<?php echo site_url('register') ?>"><?php echo lang('bf_action_register'); ?>!</a> |				
 			<?php endif; ?>
 
 			<?php echo anchor('/forgot_password', lang('bf_forgot_password')); ?>
 		</p>
->>>>>>> FETCH_HEAD
+
 	</div>
 
 	<?php echo form_close(); ?>
 </div>
 
-<<<<<<< HEAD
 <?php endif; ?>
-=======
-<?php endif; ?>
->>>>>>> FETCH_HEAD

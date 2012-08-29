@@ -340,7 +340,6 @@ $config['address.states'] = array(
 		'SK' => 'Saskatchewan',
 		'YT' => 'Yukon'
 	),
-<<<<<<< HEAD
 	'CO'	=> array(
 		'AM' => 'Amazonas',
 		'AN' => 'Antioquia',
@@ -375,8 +374,6 @@ $config['address.states'] = array(
 		'VA' => 'Vaup&eacute;s',
 		'VI' => 'Vichada'
 	),
-=======
->>>>>>> FETCH_HEAD
 	'MX'	=> array(
 		'AG' => 'Aguascalientes',
 		'BC' => 'Baja California Norte',

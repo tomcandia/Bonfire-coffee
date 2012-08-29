@@ -11,21 +11,13 @@ class Migration_User_language extends Migration {
 			'language' => array(
 				'type'			=> 'varchar',
 				'constraint'	=> 20,
-<<<<<<< HEAD
 				'default'		=> 'spanish'
-=======
-				'default'		=> 'english'
->>>>>>> FETCH_HEAD
 			)
 		);
 
 		$this->dbforge->add_column('users', $field);
 
-<<<<<<< HEAD
 		$languages = serialize(array('english', 'portuguese', 'persian', 'spanish'));
-=======
-		$languages = serialize(array('english', 'portuguese', 'persian'));
->>>>>>> FETCH_HEAD
 		$language_setting = "
 			INSERT INTO `{$prefix}settings` (`name`, `module`, `value`) VALUES
 			 ('site.languages', 'core', '".$languages."');
@@ -50,8 +42,4 @@ class Migration_User_language extends Migration {
 
 	//--------------------------------------------------------------------
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> FETCH_HEAD

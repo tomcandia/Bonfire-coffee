@@ -60,12 +60,8 @@ $('.matrix th a').click(function(){
 	var checked 	= false;
 	var found		= false;
 	var checkbox	= false;
-<<<<<<< HEAD
-	var columnIndex	= $(this).parent('th').attr('cellIndex');
-			
-=======
 	var columnIndex	= $(this).parent('th').index();
->>>>>>> FETCH_HEAD
+
 	for (i=0; i < rows.length; i++)
 	{
 		checkbox = $(rows[i]).find('td:eq('+(columnIndex)+')').find(":checkbox");

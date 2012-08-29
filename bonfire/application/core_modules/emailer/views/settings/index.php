@@ -4,11 +4,7 @@
 	<?php echo form_open(SITE_AREA .'/settings/emailer', 'class="form-horizontal"'); ?>
 
 	<fieldset>
-<<<<<<< HEAD
 		<legend><?php echo lang('em_general_set'); ?></legend>
-=======
-		<legend>General Settings</legend>
->>>>>>> FETCH_HEAD
 
 		<div class="control-group <?php echo form_error('sender_email') ? 'error' : '' ?>">
 			<label class="control-label" for="sender_email"><?php echo lang('em_system_email'); ?></label>
@@ -100,11 +96,7 @@
 	</fieldset>
 
 	<div class="form-actions">
-<<<<<<< HEAD
 		<input type="submit" name="submit" class="btn btn-primary" value="<?php echo lang('em_save_config'); ?>" />
-=======
-		<input type="submit" name="submit" class="btn btn-primary" value="Save Settings" />
->>>>>>> FETCH_HEAD
 	</div>
 
 	<?php echo form_close(); ?>
