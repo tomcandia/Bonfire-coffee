@@ -30,12 +30,11 @@
 	<div class="control-group <?php echo iif( form_error('email') , 'error'); ?>">
 		<label class="control-label required" for="email"><?php echo lang('bf_email'); ?></label>
 		<div class="controls">
-			<input class="span6" type="text" name="email" value="<?php echo set_value('email') ?>" />
+			<input class="span6" type="text" name="email" id="email" value="<?php echo set_value('email') ?>" />
 		</div>
 	</div>
 
 	<div class="control-group">
-		<label class="control-label" for="submit">&nbsp;</label>
 		<div class="controls">
 			<input class="btn btn-primary" type="submit" name="submit" value="<?php echo lang('us_button_enter'); ?>"  />
 		</div>

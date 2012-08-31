@@ -26,6 +26,7 @@
 	
 		<div>
 			<label for="environment"><?php echo lang('in_environment'); ?></label>
+
 			<select name="environment">
 				<option value="development" <?php echo set_select('environment', 'development', TRUE); ?>><?php echo lang('in_env_dev'); ?></option>
 				<option value="testing" <?php echo set_select('environment', 'testing'); ?>><?php echo lang('in_env_test'); ?></option>
@@ -35,14 +36,12 @@
 		
 		<div>
 			<label for="hostname"><?php echo lang('in_host'); ?></label>
-			<input type="text" name="hostname" value="<?php echo set_value('hostname', 'localhost') ?>" />
+			<input type="text" name="hostname" id="hostname" value="<?php echo set_value('hostname', 'localhost') ?>" />
 		</div>
 		
 		<div>
-
-			<label for="username"><?php echo lang('in_username'); ?></label>
-
-			<input type="text" name="username" value="<?php echo set_value('username') ?>" />
+			<label for="username"><?php echo lang('bf_username'); ?></label>
+			<input type="text" name="username" id="username" value="<?php echo set_value('username') ?>" />
 		</div>
 		
 		<div>
@@ -59,7 +58,7 @@
 		
 		<div>
 			<label for="db_prefix"><?php echo lang('in_prefix'); ?></label>
-			<input type="text" name="db_prefix" value="<?php echo set_value('db_prefix', 'bf_'); ?>" />
+			<input type="text" name="db_prefix" id="db_prefix" value="<?php echo set_value('db_prefix', 'bf_'); ?>" />
 		</div>
 		
 		<div class="submits">
@@ -70,4 +69,3 @@
 <?php endif; ?>
 
 <?php $this->load->view('footer'); ?>
-
