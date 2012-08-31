@@ -1,4 +1,4 @@
-<div class="navbar navbar-fixed-top">
+<div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-inner">
 
 	    <div class="container">
@@ -15,7 +15,7 @@
 			<div class="nav-collapse collapse">
 				<ul class="nav pull-right">
 					<li class="divider-vertical"></li>
-<?php //style="height:40px" ?>
+
 					<?php if (isset($current_user->email)) : ?>
 					<li class="dropdown" >
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -25,21 +25,23 @@
 						<ul class="dropdown-menu">
 							<li>
 								<a href="<?php echo site_url(); ?>">
-									<?php echo lang('bf_home') ?>
+									<i class="icon-home"></i> <?php echo lang('bf_home') ?>
 								</a>
 							</li>
 
 							<?php if (has_permission('Site.Content.View')) : ?>
 							<li class="divider"></li>
 							<li>
-								<?php echo anchor(SITE_AREA, 'Control Panel'); ?>
+								<a href="<?php echo site_url('admin');?>">
+									<i class="icon-cog"></i> Control Panel
+								</a>
 							</li>
 
 							<?php endif; ?>
 							<li class="divider"></li>
 							<li>
 								<a href="<?php echo site_url('users/profile');?>">
-									<?php echo lang('bf_user_settings') ?>
+									<i class="icon-user"></i> <?php echo lang('bf_user_settings') ?>
 								</a>
 							</li>
 
