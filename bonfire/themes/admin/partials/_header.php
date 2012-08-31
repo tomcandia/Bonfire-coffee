@@ -1,7 +1,7 @@
 <?php
 	Assets::add_css( array(
-		'bootstrap.css',
-		'bootstrap-responsive.css',
+		'bootstrap.min.css',
+		'bootstrap-responsive.min.css',
 	));
 
 	if (isset($shortcut_data) && is_array($shortcut_data['shortcut_keys'])) {
@@ -33,7 +33,7 @@
 		<p>Javascript is required to use Bonfire's admin.</p>
 	</noscript>
 
-		<div class="navbar navbar-fixed-top" id="topbar" >
+		<div class="navbar navbar-inverse navbar-fixed-top" id="topbar" >
 			<div class="navbar-inner">
 				<div class="container-fluid">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -41,7 +41,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<h1><?php echo anchor( '/', $this->settings_lib->item('site.title'), 'class="brand"' ); ?></h1>
+					<?php echo anchor( '/', $this->settings_lib->item('site.title'), 'class="brand"' ); ?>
 
 					<?php if(isset($shortcut_data) && is_array($shortcut_data['shortcuts']) && is_array($shortcut_data['shortcut_keys']) && count($shortcut_data['shortcut_keys'])):?>
 					<!-- Shortcut Menu -->
@@ -114,7 +114,7 @@
 	<div class="container-fluid">
 
 		<?php if (isset($toolbar_title)) : ?>
-			<h1><?php echo $toolbar_title ?></h1>
+			<h5><?php echo $toolbar_title ?></h5>
 		<?php endif; ?>
 
 		<div class="pull-right" id="sub-menu">
