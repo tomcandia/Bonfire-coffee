@@ -85,22 +85,28 @@ class Settings extends Admin_Controller
 				{
 					switch(strtolower($action))
 					{
-						case 'activate':
+						//case 'activate':
+						case 'activar':
 							$this->_activate($user_id);
 							break;
-						case 'deactivate':
+						//case 'deactivate':
+						case 'inactivar':
 							$this->_deactivate($user_id);
 							break;
-						case 'ban':
+						//case 'ban':
+						case 'bloquear':
 							$this->_ban($user_id);
 							break;
-						case 'delete':
+						//case 'delete':
+						case 'eliminar':
 							$this->_delete($user_id);
 							break;
-						case 'purge':
+						//case 'purge':
+						case 'purgar':
 							$this->_purge($user_id);
 							break;
-						case 'restore':
+						//case 'restore':
+						case 'restaurar':
 							$this->_restore($user_id);
 							break;
 					}

@@ -73,6 +73,8 @@ $lang['bf_searchable_default']	= '&iquest;Buscable por defecto?';
 $lang['bf_cacheable_default']	= '&iquest;Almacenable en cache por defecto?';
 $lang['bf_track_hits']			= '&iquest;Seguimiento de visitas a la p&aacute;gina?';
 
+$lang['bf_action_activate']		= 'Activar';
+$lang['bf_action_deactivate']	= 'Inactivar';
 $lang['bf_action_save']			= 'Guardar';
 $lang['bf_action_delete']		= 'Eliminar';
 $lang['bf_action_cancel']		= 'Cancelar';
