@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="admin-box">
 	<h3><?php echo $toolbar_title ?></h3>
 
